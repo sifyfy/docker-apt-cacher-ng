@@ -1,3 +1,0 @@
-#!/bin/bash -eu
-
-docker run -d --name apt-cacher-ng -h apt-cacher-ng -p 31420:3142 siphilia/apt-cacher-ng:latest
